@@ -33,4 +33,9 @@ Public Class DividirEnteros
     Private Sub txtNum2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNum2.KeyPress
         Numerico(txtNum2, e)
     End Sub
+    Private Sub DividirEnteros_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        GroupBox1.Left = Me.Width / 2 - (GroupBox1.Width / 2)
+        Label2.Left = Me.Width / 2 - (Label2.Width / 2)
+        Label5.Left = Me.Width / 2 - (Label5.Width / 2)
+    End Sub
 End Class
