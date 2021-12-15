@@ -14,9 +14,14 @@
         BuscarPersona.MdiParent = Me
         BuscarPersona.WindowState = FormWindowState.Maximized
         BuscarPersona.Show()
-
-
+    End Sub
     Private Sub ObtenerConjuntoDeDatosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ObtenerConjuntoDeDatosToolStripMenuItem.Click
+        GetDataSetByName.MdiParent = Me
+        GetDataSetByName.WindowState = FormWindowState.Maximized
+        GetDataSetByName.Show()
+    End Sub
+
+    Private Sub ObtenerListaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ObtenerListaToolStripMenuItem.Click
         GetListByNamevb.MdiParent = Me
         GetListByNamevb.WindowState = FormWindowState.Maximized
         GetListByNamevb.Show()
