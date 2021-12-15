@@ -14,6 +14,7 @@
         BuscarPersona.MdiParent = Me
         BuscarPersona.WindowState = FormWindowState.Maximized
         BuscarPersona.Show()
+    End Sub
 
 
     Private Sub ObtenerConjuntoDeDatosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ObtenerConjuntoDeDatosToolStripMenuItem.Click

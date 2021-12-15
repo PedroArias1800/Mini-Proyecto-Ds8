@@ -26,7 +26,10 @@ Partial Class __LookupCity
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtZipCode = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtInfo = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtCiudad = New System.Windows.Forms.TextBox()
+        Me.txtEstado = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnBuscar
@@ -69,20 +72,53 @@ Partial Class __LookupCity
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Código Postal:"
         '
-        'txtInfo
+        'Label3
         '
-        Me.txtInfo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtInfo.Location = New System.Drawing.Point(17, 225)
-        Me.txtInfo.Name = "txtInfo"
-        Me.txtInfo.Size = New System.Drawing.Size(360, 30)
-        Me.txtInfo.TabIndex = 4
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(131, 276)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(79, 25)
+        Me.Label3.TabIndex = 5
+        Me.Label3.Text = "Estado:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(131, 318)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(81, 25)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Ciudad:"
+        '
+        'txtCiudad
+        '
+        Me.txtCiudad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtCiudad.Location = New System.Drawing.Point(216, 315)
+        Me.txtCiudad.Name = "txtCiudad"
+        Me.txtCiudad.ReadOnly = True
+        Me.txtCiudad.Size = New System.Drawing.Size(100, 30)
+        Me.txtCiudad.TabIndex = 7
+        '
+        'txtEstado
+        '
+        Me.txtEstado.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEstado.Location = New System.Drawing.Point(216, 273)
+        Me.txtEstado.Name = "txtEstado"
+        Me.txtEstado.ReadOnly = True
+        Me.txtEstado.Size = New System.Drawing.Size(100, 30)
+        Me.txtEstado.TabIndex = 8
         '
         '__LookupCity
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(391, 352)
-        Me.Controls.Add(Me.txtInfo)
+        Me.ClientSize = New System.Drawing.Size(661, 454)
+        Me.Controls.Add(Me.txtEstado)
+        Me.Controls.Add(Me.txtCiudad)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtZipCode)
         Me.Controls.Add(Me.Label1)
@@ -98,5 +134,8 @@ Partial Class __LookupCity
     Friend WithEvents Label1 As Label
     Friend WithEvents txtZipCode As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents txtInfo As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtCiudad As TextBox
+    Friend WithEvents txtEstado As TextBox
 End Class
