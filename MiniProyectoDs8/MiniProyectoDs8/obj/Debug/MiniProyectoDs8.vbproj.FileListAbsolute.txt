@@ -1,0 +1,14 @@
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.exe.config
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.exe
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.pdb
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.xml
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.AssemblyReference.cache
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.MiniProyecto.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.Resources.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.Presentacion.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.SumarEnteros.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.GenerateResource.cache
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.CoreCompileInputs.cache
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.exe
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb

@@ -38,9 +38,9 @@ Partial Class Presentacion
         Me.PictureBox2.BackColor = System.Drawing.Color.White
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(927, 15)
+        Me.PictureBox2.Location = New System.Drawing.Point(915, 15)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(142, 136)
+        Me.PictureBox2.Size = New System.Drawing.Size(132, 122)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 12
         Me.PictureBox2.TabStop = False
@@ -49,9 +49,9 @@ Partial Class Presentacion
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 15)
+        Me.PictureBox1.Location = New System.Drawing.Point(37, 15)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(146, 136)
+        Me.PictureBox1.Size = New System.Drawing.Size(131, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
@@ -59,10 +59,10 @@ Partial Class Presentacion
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(639, 397)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(599, 362)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(359, 185)
+        Me.Label4.Size = New System.Drawing.Size(340, 180)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Integrantes:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Alvarado, Jordan / " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Arias, Pedro / 8-961-780" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gómez, Daniel / " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Mo" &
     "rales, Aurelio / "
@@ -71,10 +71,10 @@ Partial Class Presentacion
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(155, 434)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(165, 399)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(293, 111)
+        Me.Label3.Size = New System.Drawing.Size(279, 108)
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Docente: José Chirú" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Grupo: 1LS132" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Fecha: 15/12/2021"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -82,10 +82,10 @@ Partial Class Presentacion
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(309, 279)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(308, 263)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(463, 74)
+        Me.Label2.Size = New System.Drawing.Size(445, 72)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "Mini Proyecto Ds8" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Consumo Del WebService SOAP"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
