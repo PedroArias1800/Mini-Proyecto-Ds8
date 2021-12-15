@@ -38,7 +38,7 @@ Partial Class Presentacion
         Me.PictureBox2.BackColor = System.Drawing.Color.White
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(915, 15)
+        Me.PictureBox2.Location = New System.Drawing.Point(916, 15)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(132, 122)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -49,7 +49,7 @@ Partial Class Presentacion
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(37, 15)
+        Me.PictureBox1.Location = New System.Drawing.Point(30, 15)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(131, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -60,7 +60,7 @@ Partial Class Presentacion
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(599, 362)
+        Me.Label4.Location = New System.Drawing.Point(597, 362)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(413, 180)
         Me.Label4.TabIndex = 10
@@ -72,7 +72,7 @@ Partial Class Presentacion
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(165, 399)
+        Me.Label3.Location = New System.Drawing.Point(163, 399)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(279, 108)
         Me.Label3.TabIndex = 9
@@ -83,7 +83,7 @@ Partial Class Presentacion
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(308, 263)
+        Me.Label2.Location = New System.Drawing.Point(306, 263)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(445, 72)
         Me.Label2.TabIndex = 8
@@ -94,7 +94,7 @@ Partial Class Presentacion
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(164, 63)
+        Me.Label1.Location = New System.Drawing.Point(162, 63)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(755, 185)
         Me.Label1.TabIndex = 7

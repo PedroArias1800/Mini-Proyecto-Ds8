@@ -29,6 +29,8 @@ Partial Class GetDataSetByName
         Me.rtb1 = New System.Windows.Forms.RichTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Buscar
@@ -36,7 +38,7 @@ Partial Class GetDataSetByName
         Me.Buscar.BackColor = System.Drawing.Color.DimGray
         Me.Buscar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Buscar.ForeColor = System.Drawing.Color.White
-        Me.Buscar.Location = New System.Drawing.Point(442, 154)
+        Me.Buscar.Location = New System.Drawing.Point(217, 70)
         Me.Buscar.Name = "Buscar"
         Me.Buscar.Size = New System.Drawing.Size(181, 40)
         Me.Buscar.TabIndex = 26
@@ -46,7 +48,7 @@ Partial Class GetDataSetByName
         'txtName
         '
         Me.txtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtName.Location = New System.Drawing.Point(573, 101)
+        Me.txtName.Location = New System.Drawing.Point(357, 17)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(203, 34)
         Me.txtName.TabIndex = 25
@@ -55,7 +57,7 @@ Partial Class GetDataSetByName
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(288, 98)
+        Me.Label1.Location = New System.Drawing.Point(44, 15)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(279, 36)
         Me.Label1.TabIndex = 24
@@ -76,8 +78,9 @@ Partial Class GetDataSetByName
         'rtb1
         '
         Me.rtb1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rtb1.Location = New System.Drawing.Point(154, 256)
+        Me.rtb1.Location = New System.Drawing.Point(157, 255)
         Me.rtb1.Name = "rtb1"
+        Me.rtb1.ReadOnly = True
         Me.rtb1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical
         Me.rtb1.Size = New System.Drawing.Size(760, 240)
         Me.rtb1.TabIndex = 27
@@ -87,7 +90,7 @@ Partial Class GetDataSetByName
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(410, 216)
+        Me.Label4.Location = New System.Drawing.Point(185, 132)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(240, 29)
         Me.Label4.TabIndex = 28
@@ -105,6 +108,18 @@ Partial Class GetDataSetByName
         Me.Label5.Text = "El método utilizado del WebService es GetDataSetByName"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Buscar)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.txtName)
+        Me.GroupBox1.Location = New System.Drawing.Point(235, 85)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(612, 164)
+        Me.GroupBox1.TabIndex = 30
+        Me.GroupBox1.TabStop = False
+        '
         'GetDataSetByName
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -112,14 +127,13 @@ Partial Class GetDataSetByName
         Me.BackColor = System.Drawing.Color.Khaki
         Me.ClientSize = New System.Drawing.Size(1081, 633)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.rtb1)
-        Me.Controls.Add(Me.Buscar)
-        Me.Controls.Add(Me.txtName)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Name = "GetDataSetByName"
         Me.Text = "Get Data Set By Name"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -132,4 +146,5 @@ Partial Class GetDataSetByName
     Friend WithEvents rtb1 As RichTextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents GroupBox1 As GroupBox
 End Class
