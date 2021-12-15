@@ -81,3 +81,4 @@ D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\M
 D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetDataSetByName.resources
 >>>>>>> parent of f9798d9 (Revert "Merge branch 'main' of https://github.com/PedroArias1800/Mini-Proyecto-Ds8")
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.BuscarPersona.resources

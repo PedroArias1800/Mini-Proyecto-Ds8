@@ -40,4 +40,5 @@ Public Class SumarEnteros
         Label2.Left = Me.Width / 2 - (Label2.Width / 2)
         Label5.Left = Me.Width / 2 - (Label5.Width / 2)
     End Sub
+
 End Class

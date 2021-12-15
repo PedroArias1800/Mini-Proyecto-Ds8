@@ -1,8 +1,20 @@
 ﻿Imports Newtonsoft.Json
-
 Public Class BuscarPersona
     Dim Servicios As New WebServiceSoap.SOAPDemoSoapClient
-    Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles Buscar.Click
+    Private Sub BuscarPersona_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        GroupBox1.Left = Me.Width / 2 - (GroupBox1.Width / 2)
+        Label2.Left = Me.Width / 2 - (Label2.Width / 2)
+        Label5.Left = Me.Width / 2 - (Label5.Width / 2)
+    End Sub
+
+    Private Sub idPersona_KeyPress(sender As Object, e As KeyPressEventArgs) Handles idPersona.KeyPress
+        If Asc(e.KeyChar) <> 8 Then
+            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
+                e.Handled = True
+            End If
+        End If
+    End Sub
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim id As Integer
         Dim datos(), data1(), data2(), data3() As String
         id = Val(idPersona.Text)
@@ -32,20 +44,6 @@ Public Class BuscarPersona
 
         End If
 
-    End Sub
-
-    Private Sub BuscarPersona_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        GroupBox1.Left = Me.Width / 2 - (GroupBox1.Width / 2)
-        Label2.Left = Me.Width / 2 - (Label2.Width / 2)
-        Label5.Left = Me.Width / 2 - (Label5.Width / 2)
-    End Sub
-
-    Private Sub idPersona_KeyPress(sender As Object, e As KeyPressEventArgs) Handles idPersona.KeyPress
-        If Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
-                e.Handled = True
-            End If
-        End If
     End Sub
 
 End Class

@@ -48,25 +48,25 @@ Partial Class MiniProyecto
         'PresentaciónToolStripMenuItem
         '
         Me.PresentaciónToolStripMenuItem.Name = "PresentaciónToolStripMenuItem"
-        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(148, 32)
+        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(125, 27)
         Me.PresentaciónToolStripMenuItem.Text = "Presentación"
         '
         'SumaDeEnterosToolStripMenuItem
         '
         Me.SumaDeEnterosToolStripMenuItem.Name = "SumaDeEnterosToolStripMenuItem"
-        Me.SumaDeEnterosToolStripMenuItem.Size = New System.Drawing.Size(163, 32)
+        Me.SumaDeEnterosToolStripMenuItem.Size = New System.Drawing.Size(140, 27)
         Me.SumaDeEnterosToolStripMenuItem.Text = "Sumar Enteros"
         '
         'DividirEnterosToolStripMenuItem
         '
         Me.DividirEnterosToolStripMenuItem.Name = "DividirEnterosToolStripMenuItem"
-        Me.DividirEnterosToolStripMenuItem.Size = New System.Drawing.Size(167, 32)
+        Me.DividirEnterosToolStripMenuItem.Size = New System.Drawing.Size(143, 27)
         Me.DividirEnterosToolStripMenuItem.Text = "Dividir Enteros"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(169, 32)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(142, 27)
         Me.BuscarToolStripMenuItem.Text = "Buscar Persona"
         '
         'ObtenerConjuntoDeDatosToolStripMenuItem
@@ -78,13 +78,13 @@ Partial Class MiniProyecto
         'ObtenerListaToolStripMenuItem
         '
         Me.ObtenerListaToolStripMenuItem.Name = "ObtenerListaToolStripMenuItem"
-        Me.ObtenerListaToolStripMenuItem.Size = New System.Drawing.Size(153, 32)
+        Me.ObtenerListaToolStripMenuItem.Size = New System.Drawing.Size(132, 27)
         Me.ObtenerListaToolStripMenuItem.Text = "Obtener Lista"
         '
         'BuscarCiudadToolStripMenuItem
         '
         Me.BuscarCiudadToolStripMenuItem.Name = "BuscarCiudadToolStripMenuItem"
-        Me.BuscarCiudadToolStripMenuItem.Size = New System.Drawing.Size(160, 32)
+        Me.BuscarCiudadToolStripMenuItem.Size = New System.Drawing.Size(138, 27)
         Me.BuscarCiudadToolStripMenuItem.Text = "Buscar Ciudad"
         '
         'MiniProyecto
