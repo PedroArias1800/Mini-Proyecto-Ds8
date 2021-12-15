@@ -137,6 +137,9 @@
     <EmbeddedResource Include="GetListByNamevb.resx">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LookupCity.resx">
+      <DependentUpon>LookupCity.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
