@@ -72,8 +72,8 @@ Partial Class MiniProyecto
         'ObtenerConjuntoDeDatosToolStripMenuItem
         '
         Me.ObtenerConjuntoDeDatosToolStripMenuItem.Name = "ObtenerConjuntoDeDatosToolStripMenuItem"
-        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Size = New System.Drawing.Size(141, 27)
-        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Text = "Obtener Datos"
+        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Size = New System.Drawing.Size(246, 27)
+        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Text = "Obtener Conjunto De Datos"
         '
         'ObtenerListaToolStripMenuItem
         '
