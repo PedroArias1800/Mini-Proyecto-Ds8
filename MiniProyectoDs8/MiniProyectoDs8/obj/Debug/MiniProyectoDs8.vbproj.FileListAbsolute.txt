@@ -52,3 +52,4 @@ C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources
+C:\Users\User\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources
