@@ -13,4 +13,10 @@ Public Class __LookupCity
         txtEstado.Text = d2(1)
         txtCiudad.Text = d1(1)
     End Sub
+
+    Private Sub __LookupCity_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        gbxContenido.Width = lblTitulo.Width
+        gbxContenido.Left = (Me.Width / 2) - (gbxContenido.Width / 2)
+        gbxContenido.Top = (Me.Height / 2) - (gbxContenido.Height / 2)
+    End Sub
 End Class
