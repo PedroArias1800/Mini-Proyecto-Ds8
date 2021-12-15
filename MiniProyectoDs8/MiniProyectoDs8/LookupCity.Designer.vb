@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class __LookupCity
     Inherits System.Windows.Forms.Form
 
@@ -138,26 +138,7 @@ Partial Class __LookupCity
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.SteelBlue
-        Me.BackgroundImage = Global.MiniProyectoDs8.My.Resources.Resources.ciudad
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1122, 599)
-        Me.Controls.Add(Me.gbxContenido)
-        Me.Name = "__LookupCity"
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Text = "__LookupCity"
-        Me.gbxContenido.ResumeLayout(False)
-        Me.gbxContenido.PerformLayout()
-        Me.ResumeLayout(False)
-
     End Sub
-
-    Friend WithEvents btnBuscar As Button
-    Friend WithEvents lblTitulo As Label
-    Friend WithEvents txtZipCode As TextBox
-    Friend WithEvents lblCodigoPostal As Label
-    Friend WithEvents lblEstado As Label
-    Friend WithEvents lblCiudad As Label
-    Friend WithEvents txtCiudad As TextBox
-    Friend WithEvents txtEstado As TextBox
-    Friend WithEvents gbxContenido As GroupBox
 End Class

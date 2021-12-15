@@ -1,4 +1,4 @@
-﻿Imports Newtonsoft.Json
+﻿Public Class __LookupCity
 
 Public Class __LookupCity
     Dim Servicios As New WebServiceSoap.SOAPDemoSoapClient

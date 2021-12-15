@@ -78,12 +78,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuscarPersona.Designer.vb">
-      <DependentUpon>BuscarPersona.vb</DependentUpon>
-    </Compile>
-    <Compile Include="BuscarPersona.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Connected Services\WebServiceSoap\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -96,10 +90,10 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GetDataSetByName.Designer.vb">
-      <DependentUpon>GetDataSetByName.vb</DependentUpon>
+    <Compile Include="DividirEnteros.Designer.vb">
+      <DependentUpon>DividirEnteros.vb</DependentUpon>
     </Compile>
-    <Compile Include="GetDataSetByName.vb">
+    <Compile Include="DividirEnteros.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GetListByNamevb.Designer.vb">
@@ -141,22 +135,17 @@
     <Compile Include="LookupCity.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Validaciones.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="BuscarPersona.resx">
-      <DependentUpon>BuscarPersona.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GetDataSetByName.resx">
-      <DependentUpon>GetDataSetByName.vb</DependentUpon>
+    <EmbeddedResource Include="DividirEnteros.resx">
+      <DependentUpon>DividirEnteros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GetListByNamevb.resx">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LookupCity.resx">
-      <DependentUpon>LookupCity.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -223,9 +212,6 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ciudad.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
