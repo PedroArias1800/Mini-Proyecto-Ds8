@@ -96,6 +96,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GetDataSetByName.Designer.vb">
+      <DependentUpon>GetDataSetByName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GetDataSetByName.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GetListByNamevb.Designer.vb">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetDataSetByName.resx">
+      <DependentUpon>GetDataSetByName.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GetListByNamevb.resx">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>

@@ -4,7 +4,7 @@ Public Class BuscarPersona
     Dim Servicios As New WebServiceSoap.SOAPDemoSoapClient
     Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles Buscar.Click
         Dim id As Integer
-        Dim datos(), data1(), data2(), data3(), data4() As String
+        Dim datos(), data1(), data2(), data3() As String
         id = Val(idPersona.Text)
         Dim JsonData As String = JsonConvert.SerializeObject(Servicios.FindPerson(id))
         datos = Split(JsonData, ":{")
@@ -19,8 +19,6 @@ Public Class BuscarPersona
 
         rtb1.Text = rtb1.Text & data3(0)
 
-        'rtb2.Text = data1(2)
-        'rtb3.Text = data1(3)
-
     End Sub
+
 End Class

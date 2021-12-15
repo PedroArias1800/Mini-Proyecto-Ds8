@@ -104,7 +104,7 @@ Partial Class BuscarPersona
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(142, 235)
+        Me.Label3.Location = New System.Drawing.Point(190, 235)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(118, 27)
         Me.Label3.TabIndex = 23
@@ -115,7 +115,7 @@ Partial Class BuscarPersona
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(483, 235)
+        Me.Label12.Location = New System.Drawing.Point(547, 235)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(117, 27)
         Me.Label12.TabIndex = 32
@@ -126,7 +126,7 @@ Partial Class BuscarPersona
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(828, 235)
+        Me.Label16.Location = New System.Drawing.Point(857, 235)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(83, 27)
         Me.Label16.TabIndex = 40
@@ -138,25 +138,25 @@ Partial Class BuscarPersona
         Me.rtb1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.rtb1.Location = New System.Drawing.Point(50, 265)
         Me.rtb1.Name = "rtb1"
-        Me.rtb1.Size = New System.Drawing.Size(310, 156)
+        Me.rtb1.Size = New System.Drawing.Size(400, 156)
         Me.rtb1.TabIndex = 41
         Me.rtb1.Text = ""
         '
         'rtb2
         '
         Me.rtb2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rtb2.Location = New System.Drawing.Point(386, 265)
+        Me.rtb2.Location = New System.Drawing.Point(479, 265)
         Me.rtb2.Name = "rtb2"
-        Me.rtb2.Size = New System.Drawing.Size(310, 156)
+        Me.rtb2.Size = New System.Drawing.Size(264, 156)
         Me.rtb2.TabIndex = 42
         Me.rtb2.Text = ""
         '
         'rtb3
         '
         Me.rtb3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rtb3.Location = New System.Drawing.Point(718, 265)
+        Me.rtb3.Location = New System.Drawing.Point(773, 265)
         Me.rtb3.Name = "rtb3"
-        Me.rtb3.Size = New System.Drawing.Size(310, 156)
+        Me.rtb3.Size = New System.Drawing.Size(255, 156)
         Me.rtb3.TabIndex = 43
         Me.rtb3.Text = ""
         '
