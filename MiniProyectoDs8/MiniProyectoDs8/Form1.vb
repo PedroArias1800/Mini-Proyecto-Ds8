@@ -26,4 +26,10 @@
         GetListByNamevb.WindowState = FormWindowState.Maximized
         GetListByNamevb.Show()
     End Sub
+
+    Private Sub BuscarCiudadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BuscarCiudadToolStripMenuItem.Click
+        __LookupCity.MdiParent = Me
+        __LookupCity.WindowState = FormWindowState.Maximized
+        __LookupCity.Show()
+    End Sub
 End Class
