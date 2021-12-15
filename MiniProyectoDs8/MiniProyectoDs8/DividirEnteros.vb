@@ -13,12 +13,10 @@ Public Class DividirEnteros
             MsgBox("El dividendo debe ser mayor que el divisor.")
         Else
             Try
-                txtResultado.Text = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))
-                'Math.Round(Val(Servicios.DivideInteger(num1, num2)), 0)
-                'Servicios.DivideInteger(num1, num2)
-
+                txtResultado.Text = JsonConvert.DeserializeObject(Of Boolean)(Servicios.DivideInteger(num1, num2))
             Catch ex As Exception
-                MsgBox(JsonConvert.SerializeObject(ex))
+                txtResultado.Text = Math.Round(Val(num1 / num2), 2)
+                MsgBox("Si el resultado de la division es un número con decimales, el metodo manda un error.")
             End Try
         End If
         'Dim JsonData As String = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))
