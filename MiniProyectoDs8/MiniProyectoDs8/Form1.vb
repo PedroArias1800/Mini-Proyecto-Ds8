@@ -17,4 +17,10 @@
         GetListByNamevb.WindowState = FormWindowState.Maximized
         GetListByNamevb.Show()
     End Sub
+
+    Private Sub DividirEnterosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DividirEnterosToolStripMenuItem.Click
+        DividirEnteros.MdiParent = Me
+        DividirEnteros.WindowState = FormWindowState.Maximized
+        DividirEnteros.Show()
+    End Sub
 End Class

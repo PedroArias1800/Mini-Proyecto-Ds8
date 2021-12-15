@@ -90,6 +90,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DividirEnteros.Designer.vb">
+      <DependentUpon>DividirEnteros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DividirEnteros.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GetListByNamevb.Designer.vb">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
     </Compile>
@@ -129,10 +135,14 @@
     <Compile Include="LookupCity.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Validaciones.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DividirEnteros.resx">
+      <DependentUpon>DividirEnteros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GetListByNamevb.resx">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
