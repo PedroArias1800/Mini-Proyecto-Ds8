@@ -22,5 +22,129 @@ MiniProyectoDs8
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:MiniProyectoDs8.WsSoap.Person">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.Name">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.SSN">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.DOB">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.DOBSpecified">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.Home">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.Office">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.Spouse">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.FavoriteColors">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.Age">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Person.AgeSpecified">
+<remarks/>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.Address">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Address.Street">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Address.City">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Address.State">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Address.Zip">
+<remarks/>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.PersonIdentification">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.PersonIdentification.ID">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.PersonIdentification.Name">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.PersonIdentification.SSN">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.PersonIdentification.DOB">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.PersonIdentification.DOBSpecified">
+<remarks/>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.Employee">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Employee.Title">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Employee.Salary">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Employee.SalarySpecified">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Employee.Notes">
+<remarks/>
+</member>
+<member name="P:MiniProyectoDs8.WsSoap.Employee.Picture">
+<remarks/>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.ByNameDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.ByNameDataSet.ByNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.ByNameDataSet.ByNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.ByNameDataSet.ByNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.QueryByName_DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.QueryByName_DataSet.QueryByNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.QueryByName_DataSet.QueryByNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MiniProyectoDs8.WsSoap.QueryByName_DataSet.QueryByNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 </members>
 </doc>

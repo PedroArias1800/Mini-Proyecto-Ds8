@@ -12,3 +12,6 @@ C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Deb
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.exe
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.dll
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.xml
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.CopyComplete
