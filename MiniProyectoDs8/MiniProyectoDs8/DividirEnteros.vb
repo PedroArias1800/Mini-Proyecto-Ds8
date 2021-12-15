@@ -8,9 +8,9 @@ Public Class DividirEnteros
         num2 = Val(txtNum2.Text)
 
         If num2 = 0 Then
-            MsgBox("""No se puede dividir entre cero.""")
+            MsgBox("No se puede dividir entre cero.")
         ElseIf num1 < num2 Then
-            MsgBox("""El dividendo debe ser mayor que el divisor.""")
+            MsgBox("El dividendo debe ser mayor que el divisor.")
         Else
             Try
                 txtResultado.Text = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))

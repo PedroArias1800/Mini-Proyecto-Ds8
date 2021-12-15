@@ -129,12 +129,6 @@
     <Compile Include="SumarEnteros.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LookupCity.Designer.vb">
-      <DependentUpon>LookupCity.vb</DependentUpon>
-    </Compile>
-    <Compile Include="LookupCity.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Validaciones.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +206,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciudad.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

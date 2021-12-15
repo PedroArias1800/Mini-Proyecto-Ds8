@@ -52,4 +52,32 @@ C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
 C:\Users\jrica\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources
+<<<<<<< HEAD
 C:\Users\User\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources
+=======
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetListByNamevb.resources
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetDataSetByName.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.exe.config
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.exe
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.pdb
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\MiniProyectoDs8.xml
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.dll
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.xml
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.AssemblyReference.cache
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.MiniProyecto.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetListByNamevb.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.__LookupCity.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.Resources.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.Presentacion.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.SumarEnteros.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.GenerateResource.cache
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.CoreCompileInputs.cache
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.CopyComplete
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.exe
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.__LookupCity.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.BuscarPersona.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetDataSetByName.resources
+>>>>>>> parent of f9798d9 (Revert "Merge branch 'main' of https://github.com/PedroArias1800/Mini-Proyecto-Ds8")
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.DividirEnteros.resources

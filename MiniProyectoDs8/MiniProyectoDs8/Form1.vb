@@ -9,9 +9,6 @@
         SumarEnteros.WindowState = FormWindowState.Maximized
         SumarEnteros.Show()
     End Sub
-
-
-
     Private Sub ObtenerConjuntoDeDatosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ObtenerConjuntoDeDatosToolStripMenuItem.Click
         GetListByNamevb.MdiParent = Me
         GetListByNamevb.WindowState = FormWindowState.Maximized
@@ -22,5 +19,9 @@
         DividirEnteros.MdiParent = Me
         DividirEnteros.WindowState = FormWindowState.Maximized
         DividirEnteros.Show()
+    End Sub
+
+    Private Sub MiniProyecto_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.WindowState = FormWindowState.Maximized
     End Sub
 End Class
