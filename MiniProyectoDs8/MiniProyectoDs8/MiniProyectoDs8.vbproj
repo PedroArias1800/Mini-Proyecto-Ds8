@@ -78,6 +78,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuscarPersona.Designer.vb">
+      <DependentUpon>BuscarPersona.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarPersona.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Connected Services\WebServiceSoap\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -119,6 +125,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BuscarPersona.resx">
+      <DependentUpon>BuscarPersona.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

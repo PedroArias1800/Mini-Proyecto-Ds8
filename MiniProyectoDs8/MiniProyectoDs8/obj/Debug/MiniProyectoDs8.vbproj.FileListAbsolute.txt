@@ -25,3 +25,4 @@ C:\Users\User\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.dll
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\bin\Debug\Newtonsoft.Json.xml
 C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.vbproj.CopyComplete
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.BuscarPersona.resources

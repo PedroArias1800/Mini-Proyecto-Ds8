@@ -10,5 +10,9 @@
         SumarEnteros.Show()
     End Sub
 
-
+    Private Sub BuscarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BuscarToolStripMenuItem.Click
+        BuscarPersona.MdiParent = Me
+        BuscarPersona.WindowState = FormWindowState.Maximized
+        BuscarPersona.Show()
+    End Sub
 End Class

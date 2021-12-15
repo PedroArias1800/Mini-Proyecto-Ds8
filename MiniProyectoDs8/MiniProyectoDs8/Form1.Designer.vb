@@ -23,13 +23,13 @@ Partial Class MiniProyecto
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.PresentaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SumaDeEnterosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DividirEnterosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ObtenerConjuntoDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ObtenerListaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarCiudadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PresentaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,6 +42,12 @@ Partial Class MiniProyecto
         Me.MenuStrip1.Size = New System.Drawing.Size(1081, 28)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'PresentaciónToolStripMenuItem
+        '
+        Me.PresentaciónToolStripMenuItem.Name = "PresentaciónToolStripMenuItem"
+        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(107, 24)
+        Me.PresentaciónToolStripMenuItem.Text = "Presentación"
         '
         'SumaDeEnterosToolStripMenuItem
         '
@@ -78,12 +84,6 @@ Partial Class MiniProyecto
         Me.BuscarCiudadToolStripMenuItem.Name = "BuscarCiudadToolStripMenuItem"
         Me.BuscarCiudadToolStripMenuItem.Size = New System.Drawing.Size(117, 24)
         Me.BuscarCiudadToolStripMenuItem.Text = "Buscar Ciudad"
-        '
-        'PresentaciónToolStripMenuItem
-        '
-        Me.PresentaciónToolStripMenuItem.Name = "PresentaciónToolStripMenuItem"
-        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(107, 24)
-        Me.PresentaciónToolStripMenuItem.Text = "Presentación"
         '
         'MiniProyecto
         '
