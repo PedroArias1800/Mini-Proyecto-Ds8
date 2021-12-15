@@ -14,13 +14,6 @@ Public Class GetListByNamevb
         Dim JsonData As String = JsonConvert.SerializeObject(Servicios.GetListByName(texto))
         datas = Split(JsonData, "-")
         MsgBox(JsonData)
-        Dim xmlString = "<Book id=""bk102"">" & vbCrLf &
-                "  <Author>Garcia, Debra</Author>" & vbCrLf &
-                "  <Title>Writing Code</Title>" & vbCrLf &
-
-                "</Book>"
-        Dim xmlElem = XElement.Parse(xmlString)
-        MsgBox(xmlElem)
     End Sub
 
 
