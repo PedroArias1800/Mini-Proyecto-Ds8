@@ -30,6 +30,7 @@ Partial Class SumarEnteros
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label2
@@ -58,18 +59,18 @@ Partial Class SumarEnteros
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(251, 234)
+        Me.Label3.Location = New System.Drawing.Point(219, 234)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(229, 36)
+        Me.Label3.Size = New System.Drawing.Size(261, 36)
         Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Primer Número:"
+        Me.Label3.Text = "Segundo Número:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(328, 347)
+        Me.Label4.Location = New System.Drawing.Point(288, 373)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(154, 36)
         Me.Label4.TabIndex = 12
@@ -95,7 +96,7 @@ Partial Class SumarEnteros
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(501, 350)
+        Me.TextBox3.Location = New System.Drawing.Point(461, 376)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(327, 34)
         Me.TextBox3.TabIndex = 15
@@ -104,12 +105,24 @@ Partial Class SumarEnteros
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(211, 475)
+        Me.Label5.Location = New System.Drawing.Point(184, 441)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(684, 36)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "El método utilizado del WebService es AddInteger"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.DimGray
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(428, 304)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(181, 40)
+        Me.Button1.TabIndex = 17
+        Me.Button1.Text = "Calcular"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'SumarEnteros
         '
@@ -117,6 +130,7 @@ Partial Class SumarEnteros
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Khaki
         Me.ClientSize = New System.Drawing.Size(1081, 632)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
@@ -140,4 +154,5 @@ Partial Class SumarEnteros
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents Button1 As Button
 End Class

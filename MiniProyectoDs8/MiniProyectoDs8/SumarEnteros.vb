@@ -1,7 +1,7 @@
 ﻿Imports Newtonsoft.Json
 
 Public Class SumarEnteros
-    Dim Servicios As New DemoWS.SOAPDemoSoapClient
+    Dim Servicios As New WebServiceSoap.SOAPDemoSoapClient
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim num1, num2 As Integer
         Dim datas() As String
@@ -12,4 +12,5 @@ Public Class SumarEnteros
         datas = Split(JsonData, "-")
         MsgBox(JsonData)
     End Sub
+
 End Class
