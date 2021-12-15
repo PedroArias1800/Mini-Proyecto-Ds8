@@ -13,4 +13,7 @@ Public Class SumarEnteros
         MsgBox(JsonData)
     End Sub
 
+    Private Sub SumarEnteros_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

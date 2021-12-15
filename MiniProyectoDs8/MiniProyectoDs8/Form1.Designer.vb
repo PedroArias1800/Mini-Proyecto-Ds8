@@ -23,13 +23,13 @@ Partial Class MiniProyecto
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.PresentaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SumaDeEnterosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DividirEnterosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ObtenerConjuntoDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ObtenerListaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BuscarCiudadToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PresentaciónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,9 +39,16 @@ Partial Class MiniProyecto
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PresentaciónToolStripMenuItem, Me.SumaDeEnterosToolStripMenuItem, Me.DividirEnterosToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.ObtenerConjuntoDeDatosToolStripMenuItem, Me.ObtenerListaToolStripMenuItem, Me.BuscarCiudadToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1081, 28)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(811, 28)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'PresentaciónToolStripMenuItem
+        '
+        Me.PresentaciónToolStripMenuItem.Name = "PresentaciónToolStripMenuItem"
+        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(107, 24)
+        Me.PresentaciónToolStripMenuItem.Text = "Presentación"
         '
         'SumaDeEnterosToolStripMenuItem
         '
@@ -79,21 +86,16 @@ Partial Class MiniProyecto
         Me.BuscarCiudadToolStripMenuItem.Size = New System.Drawing.Size(117, 24)
         Me.BuscarCiudadToolStripMenuItem.Text = "Buscar Ciudad"
         '
-        'PresentaciónToolStripMenuItem
-        '
-        Me.PresentaciónToolStripMenuItem.Name = "PresentaciónToolStripMenuItem"
-        Me.PresentaciónToolStripMenuItem.Size = New System.Drawing.Size(107, 24)
-        Me.PresentaciónToolStripMenuItem.Text = "Presentación"
-        '
         'MiniProyecto
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Khaki
-        Me.ClientSize = New System.Drawing.Size(1081, 632)
+        Me.ClientSize = New System.Drawing.Size(811, 514)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "MiniProyecto"
         Me.Text = "Mini Proyecto"
         Me.MenuStrip1.ResumeLayout(False)

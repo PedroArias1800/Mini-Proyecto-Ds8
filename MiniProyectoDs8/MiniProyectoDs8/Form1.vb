@@ -11,4 +11,10 @@
     End Sub
 
 
+
+    Private Sub ObtenerConjuntoDeDatosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ObtenerConjuntoDeDatosToolStripMenuItem.Click
+        GetListByNamevb.MdiParent = Me
+        GetListByNamevb.WindowState = FormWindowState.Maximized
+        GetListByNamevb.Show()
+    End Sub
 End Class
