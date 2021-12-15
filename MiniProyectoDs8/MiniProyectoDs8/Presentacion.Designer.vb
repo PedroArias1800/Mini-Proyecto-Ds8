@@ -62,10 +62,10 @@ Partial Class Presentacion
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(599, 362)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(340, 180)
+        Me.Label4.Size = New System.Drawing.Size(413, 180)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "Integrantes:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Alvarado, Jordan / " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Arias, Pedro / 8-961-780" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gómez, Daniel / " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Mo" &
-    "rales, Aurelio / "
+    "rales, Aurelio / 8-944-1505"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label3

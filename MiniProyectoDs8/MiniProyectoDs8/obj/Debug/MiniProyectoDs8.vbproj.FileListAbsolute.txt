@@ -56,3 +56,4 @@ D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\M
 D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
 D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
 D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.BuscarPersona.resources
+D:\Users\super\Documents\GitHub\MiniProyecto\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.GetDataSetByName.resources
