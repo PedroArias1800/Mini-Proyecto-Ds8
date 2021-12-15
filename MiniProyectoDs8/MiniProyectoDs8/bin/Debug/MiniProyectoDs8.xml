@@ -22,11 +22,6 @@ MiniProyectoDs8
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:MiniProyectoDs8.My.Resources.Resources.ciudad">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="T:MiniProyectoDs8.WebServiceSoap.Person">
 <remarks/>
 </member>
