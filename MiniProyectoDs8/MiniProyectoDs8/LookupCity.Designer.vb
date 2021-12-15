@@ -50,7 +50,7 @@ Partial Class __LookupCity
         Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitulo.Location = New System.Drawing.Point(6, 4)
         Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(605, 117)
+        Me.lblTitulo.Size = New System.Drawing.Size(581, 114)
         Me.lblTitulo.TabIndex = 1
         Me.lblTitulo.Text = "Obteniendo Ciudad y Estado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "en Base al Código Postal (Zip Code)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Consumiendo un W" &
     "S"
@@ -97,6 +97,7 @@ Partial Class __LookupCity
         '
         'txtCiudad
         '
+        Me.txtCiudad.BackColor = System.Drawing.Color.White
         Me.txtCiudad.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtCiudad.Location = New System.Drawing.Point(249, 307)
         Me.txtCiudad.Name = "txtCiudad"
@@ -107,6 +108,7 @@ Partial Class __LookupCity
         '
         'txtEstado
         '
+        Me.txtEstado.BackColor = System.Drawing.Color.White
         Me.txtEstado.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEstado.Location = New System.Drawing.Point(249, 263)
         Me.txtEstado.Name = "txtEstado"
