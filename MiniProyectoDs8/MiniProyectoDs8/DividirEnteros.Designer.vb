@@ -31,6 +31,7 @@ Partial Class DividirEnteros
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.lblTitle = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -99,7 +100,7 @@ Partial Class DividirEnteros
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(208, 234)
+        Me.Label3.Location = New System.Drawing.Point(224, 235)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(261, 36)
         Me.Label3.TabIndex = 20
@@ -128,11 +129,21 @@ Partial Class DividirEnteros
         Me.lblTitle.Text = "División De Números Enteros"
         Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'GroupBox1
+        '
+        Me.GroupBox1.Location = New System.Drawing.Point(60, 174)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(351, 237)
+        Me.GroupBox1.TabIndex = 27
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "GroupBox1"
+        '
         'DividirEnteros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.ClientSize = New System.Drawing.Size(1081, 632)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.txtResultado)
@@ -142,7 +153,7 @@ Partial Class DividirEnteros
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblTitle)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "DividirEnteros"
         Me.Text = "FormDividirEnteros"
         Me.ResumeLayout(False)
@@ -159,4 +170,5 @@ Partial Class DividirEnteros
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents lblTitle As Label
+    Friend WithEvents GroupBox1 As GroupBox
 End Class

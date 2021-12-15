@@ -35,13 +35,13 @@ Partial Class MiniProyecto
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MenuStrip1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PresentaciónToolStripMenuItem, Me.SumaDeEnterosToolStripMenuItem, Me.DividirEnterosToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.ObtenerConjuntoDeDatosToolStripMenuItem, Me.ObtenerListaToolStripMenuItem, Me.BuscarCiudadToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1101, 36)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1081, 31)
         Me.MenuStrip1.TabIndex = 4
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -72,8 +72,8 @@ Partial Class MiniProyecto
         'ObtenerConjuntoDeDatosToolStripMenuItem
         '
         Me.ObtenerConjuntoDeDatosToolStripMenuItem.Name = "ObtenerConjuntoDeDatosToolStripMenuItem"
-        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Size = New System.Drawing.Size(288, 32)
-        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Text = "Obtener Conjunto De Datos"
+        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Size = New System.Drawing.Size(141, 27)
+        Me.ObtenerConjuntoDeDatosToolStripMenuItem.Text = "Obtener Datos"
         '
         'ObtenerListaToolStripMenuItem
         '
@@ -89,14 +89,14 @@ Partial Class MiniProyecto
         '
         'MiniProyecto
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Khaki
-        Me.ClientSize = New System.Drawing.Size(1101, 633)
+        Me.ClientSize = New System.Drawing.Size(1081, 632)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "MiniProyecto"
         Me.Text = "Mini Proyecto"
         Me.MenuStrip1.ResumeLayout(False)
