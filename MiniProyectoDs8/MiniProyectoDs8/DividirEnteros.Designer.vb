@@ -40,10 +40,10 @@ Partial Class DividirEnteros
         Me.Button1.BackColor = System.Drawing.Color.DarkOrchid
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(387, 135)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Button1.Location = New System.Drawing.Point(290, 110)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(181, 39)
+        Me.Button1.Size = New System.Drawing.Size(136, 32)
         Me.Button1.TabIndex = 26
         Me.Button1.Text = "Calcular"
         Me.Button1.UseVisualStyleBackColor = False
@@ -55,7 +55,7 @@ Partial Class DividirEnteros
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(173, 441)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(712, 36)
+        Me.Label5.Size = New System.Drawing.Size(564, 30)
         Me.Label5.TabIndex = 25
         Me.Label5.Text = "El método utilizado del WebService es DivideInteger"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -78,7 +78,7 @@ Partial Class DividirEnteros
         Me.txtNum2.Location = New System.Drawing.Point(416, 71)
         Me.txtNum2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNum2.Name = "txtNum2"
-        Me.txtNum2.Size = New System.Drawing.Size(327, 34)
+        Me.txtNum2.Size = New System.Drawing.Size(246, 28)
         Me.txtNum2.TabIndex = 23
         '
         'txtNum1
@@ -88,7 +88,7 @@ Partial Class DividirEnteros
         Me.txtNum1.Location = New System.Drawing.Point(416, 21)
         Me.txtNum1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNum1.Name = "txtNum1"
-        Me.txtNum1.Size = New System.Drawing.Size(327, 34)
+        Me.txtNum1.Size = New System.Drawing.Size(246, 28)
         Me.txtNum1.TabIndex = 22
         '
         'Label4
@@ -98,7 +98,7 @@ Partial Class DividirEnteros
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(197, 198)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(154, 36)
+        Me.Label4.Size = New System.Drawing.Size(122, 30)
         Me.Label4.TabIndex = 21
         Me.Label4.Text = "Resultado:"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -110,7 +110,7 @@ Partial Class DividirEnteros
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(139, 68)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(261, 36)
+        Me.Label3.Size = New System.Drawing.Size(207, 30)
         Me.Label3.TabIndex = 20
         Me.Label3.Text = "Segundo Número:"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -122,7 +122,7 @@ Partial Class DividirEnteros
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(171, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(229, 36)
+        Me.Label1.Size = New System.Drawing.Size(180, 30)
         Me.Label1.TabIndex = 19
         Me.Label1.Text = "Primer Número:"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -134,7 +134,7 @@ Partial Class DividirEnteros
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(328, 78)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(427, 37)
+        Me.Label2.Size = New System.Drawing.Size(339, 30)
         Me.Label2.TabIndex = 18
         Me.Label2.Text = "División De Números Enteros"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -148,22 +148,23 @@ Partial Class DividirEnteros
         Me.GroupBox1.Controls.Add(Me.txtResultado)
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(63, 138)
+        Me.GroupBox1.Location = New System.Drawing.Point(47, 112)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(931, 265)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(698, 215)
         Me.GroupBox1.TabIndex = 27
         Me.GroupBox1.TabStop = False
         '
         'DividirEnteros
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkMagenta
         Me.ClientSize = New System.Drawing.Size(1081, 632)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label2)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "DividirEnteros"
         Me.Text = "Dividir Enteros"
         Me.GroupBox1.ResumeLayout(False)

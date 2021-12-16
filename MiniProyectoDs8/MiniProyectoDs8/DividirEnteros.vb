@@ -15,10 +15,7 @@ Public Class DividirEnteros
 
         Else
             Try
-                txtResultado.Text = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))
-                'Math.Round(Val(Servicios.DivideInteger(num1, num2)), 0)
-                'Servicios.DivideInteger(num1, num2)
-
+                txtResultado.Text = JsonConvert.DeserializeObject(Of Boolean)(Servicios.DivideInteger(num1, num2))
             Catch ex As Exception
                 MsgBox("Ha ocurrido un error inesperado, vuelva a intentarlo...", vbYes, "Ups! algo ha salido mal :(")
 
