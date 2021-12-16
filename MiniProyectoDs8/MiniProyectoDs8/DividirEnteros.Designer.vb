@@ -37,7 +37,7 @@ Partial Class DividirEnteros
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.DimGray
+        Me.Button1.BackColor = System.Drawing.Color.DarkOrchid
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(387, 135)
@@ -52,6 +52,7 @@ Partial Class DividirEnteros
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(173, 441)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(712, 36)
@@ -62,15 +63,18 @@ Partial Class DividirEnteros
         'txtResultado
         '
         Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.ForeColor = System.Drawing.Color.Black
         Me.txtResultado.Location = New System.Drawing.Point(368, 203)
         Me.txtResultado.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtResultado.Name = "txtResultado"
+        Me.txtResultado.ReadOnly = True
         Me.txtResultado.Size = New System.Drawing.Size(327, 34)
         Me.txtResultado.TabIndex = 24
         '
         'txtNum2
         '
         Me.txtNum2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNum2.ForeColor = System.Drawing.Color.Black
         Me.txtNum2.Location = New System.Drawing.Point(416, 71)
         Me.txtNum2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNum2.Name = "txtNum2"
@@ -80,6 +84,7 @@ Partial Class DividirEnteros
         'txtNum1
         '
         Me.txtNum1.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNum1.ForeColor = System.Drawing.Color.Black
         Me.txtNum1.Location = New System.Drawing.Point(416, 21)
         Me.txtNum1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNum1.Name = "txtNum1"
@@ -90,6 +95,7 @@ Partial Class DividirEnteros
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(197, 198)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(154, 36)
@@ -101,6 +107,7 @@ Partial Class DividirEnteros
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(139, 68)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(261, 36)
@@ -112,6 +119,7 @@ Partial Class DividirEnteros
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(171, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(229, 36)
@@ -123,6 +131,7 @@ Partial Class DividirEnteros
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(328, 78)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(427, 37)
@@ -149,6 +158,7 @@ Partial Class DividirEnteros
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkMagenta
         Me.ClientSize = New System.Drawing.Size(1081, 632)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)

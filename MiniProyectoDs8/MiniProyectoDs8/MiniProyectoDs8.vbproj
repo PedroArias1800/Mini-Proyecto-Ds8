@@ -102,10 +102,22 @@
     <Compile Include="DividirEnteros.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GetDataSetByName.Designer.vb">
+      <DependentUpon>GetDataSetByName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GetDataSetByName.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GetListByNamevb.Designer.vb">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
     </Compile>
     <Compile Include="GetListByNamevb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookUpCity.Designer.vb">
+      <DependentUpon>LookUpCity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LookUpCity.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -147,8 +159,14 @@
     <EmbeddedResource Include="DividirEnteros.resx">
       <DependentUpon>DividirEnteros.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GetDataSetByName.resx">
+      <DependentUpon>GetDataSetByName.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GetListByNamevb.resx">
       <DependentUpon>GetListByNamevb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookUpCity.resx">
+      <DependentUpon>LookUpCity.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

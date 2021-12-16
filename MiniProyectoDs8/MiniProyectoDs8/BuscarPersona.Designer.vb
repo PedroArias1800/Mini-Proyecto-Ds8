@@ -58,28 +58,34 @@ Partial Class BuscarPersona
         '
         'rtb3
         '
-        Me.rtb3.Location = New System.Drawing.Point(701, 234)
+        Me.rtb3.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rtb3.ForeColor = System.Drawing.Color.Black
+        Me.rtb3.Location = New System.Drawing.Point(701, 212)
         Me.rtb3.Name = "rtb3"
         Me.rtb3.ReadOnly = True
-        Me.rtb3.Size = New System.Drawing.Size(247, 132)
+        Me.rtb3.Size = New System.Drawing.Size(247, 154)
         Me.rtb3.TabIndex = 23
         Me.rtb3.Text = ""
         '
         'rtb2
         '
-        Me.rtb2.Location = New System.Drawing.Point(436, 234)
+        Me.rtb2.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rtb2.ForeColor = System.Drawing.Color.Black
+        Me.rtb2.Location = New System.Drawing.Point(436, 212)
         Me.rtb2.Name = "rtb2"
         Me.rtb2.ReadOnly = True
-        Me.rtb2.Size = New System.Drawing.Size(259, 132)
+        Me.rtb2.Size = New System.Drawing.Size(259, 154)
         Me.rtb2.TabIndex = 22
         Me.rtb2.Text = ""
         '
         'rtb1
         '
-        Me.rtb1.Location = New System.Drawing.Point(7, 234)
+        Me.rtb1.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rtb1.ForeColor = System.Drawing.Color.Black
+        Me.rtb1.Location = New System.Drawing.Point(7, 212)
         Me.rtb1.Name = "rtb1"
         Me.rtb1.ReadOnly = True
-        Me.rtb1.Size = New System.Drawing.Size(423, 132)
+        Me.rtb1.Size = New System.Drawing.Size(423, 154)
         Me.rtb1.TabIndex = 21
         Me.rtb1.Text = ""
         '
@@ -87,6 +93,7 @@ Partial Class BuscarPersona
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(335, 135)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(251, 31)
@@ -98,7 +105,8 @@ Partial Class BuscarPersona
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(774, 191)
+        Me.Label6.ForeColor = System.Drawing.Color.White
+        Me.Label6.Location = New System.Drawing.Point(774, 178)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(100, 31)
         Me.Label6.TabIndex = 19
@@ -109,7 +117,8 @@ Partial Class BuscarPersona
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(481, 191)
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(481, 178)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(173, 31)
         Me.Label3.TabIndex = 18
@@ -120,6 +129,7 @@ Partial Class BuscarPersona
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(254, 18)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(183, 36)
@@ -129,7 +139,7 @@ Partial Class BuscarPersona
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.DimGray
+        Me.Button1.BackColor = System.Drawing.Color.DarkOrchid
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(367, 68)
@@ -143,6 +153,7 @@ Partial Class BuscarPersona
         'idPersona
         '
         Me.idPersona.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.idPersona.ForeColor = System.Drawing.Color.Black
         Me.idPersona.Location = New System.Drawing.Point(452, 21)
         Me.idPersona.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.idPersona.Name = "idPersona"
@@ -153,7 +164,8 @@ Partial Class BuscarPersona
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei UI", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(150, 191)
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(150, 178)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(143, 31)
         Me.Label4.TabIndex = 12
@@ -164,6 +176,7 @@ Partial Class BuscarPersona
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(202, 484)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(681, 36)
@@ -175,6 +188,7 @@ Partial Class BuscarPersona
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(386, 32)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(294, 37)
@@ -186,12 +200,13 @@ Partial Class BuscarPersona
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkMagenta
         Me.ClientSize = New System.Drawing.Size(1081, 632)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label2)
         Me.Name = "BuscarPersona"
-        Me.Text = "BuscarPersona"
+        Me.Text = "Buscar Persona"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)

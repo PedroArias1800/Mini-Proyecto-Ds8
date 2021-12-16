@@ -1,7 +1,8 @@
 ﻿Imports Newtonsoft.Json
 
 Public Class LookUpCity
-    Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+    Dim Servicios As New WebServiceSoap.SOAPDemoSoapClient
+    Private Sub Buscar_Click(sender As Object, e As EventArgs) Handles Buscar.Click
         Dim zip As String
         Dim data(), d1(), d2() As String
         zip = txtCodigoPostal.Text
@@ -23,8 +24,16 @@ Public Class LookUpCity
     End Sub
 
     Private Sub LookUpCity_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        gbxContenido.Width = lblTitulo.Width
-        gbxContenido.Left = (Me.Width / 2) - (gbxContenido.Width / 2)
-        gbxContenido.Top = (Me.Height / 2) - (gbxContenido.Height / 2)
+        GroupBox1.Left = Me.Width / 2 - (GroupBox1.Width / 2)
+        Label2.Left = Me.Width / 2 - (Label2.Width / 2)
+        Label5.Left = Me.Width / 2 - (Label5.Width / 2)
+    End Sub
+
+    Private Sub txtCodigoPostal_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtCodigoPostal.KeyPress
+        If Asc(e.KeyChar) <> 8 Then
+            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
+                e.Handled = True
+            End If
+        End If
     End Sub
 End Class

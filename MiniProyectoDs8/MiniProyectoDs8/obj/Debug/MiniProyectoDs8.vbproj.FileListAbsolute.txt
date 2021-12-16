@@ -102,3 +102,4 @@ D:\Users\super\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs
 D:\Users\super\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.exe
 D:\Users\super\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.xml
 D:\Users\super\Documents\GitHub\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.pdb
+C:\Users\leone\Desktop\Mini-Proyecto-Ds8\MiniProyectoDs8\MiniProyectoDs8\obj\Debug\MiniProyectoDs8.LookUpCity.resources

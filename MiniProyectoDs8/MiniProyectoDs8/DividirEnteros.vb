@@ -9,8 +9,10 @@ Public Class DividirEnteros
 
         If num2 = 0 Then
             MsgBox("No se puede dividir entre cero.")
+
         ElseIf num1 < num2 Then
             MsgBox("El dividendo debe ser mayor que el divisor.")
+
         Else
             Try
                 txtResultado.Text = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))
@@ -18,7 +20,12 @@ Public Class DividirEnteros
                 'Servicios.DivideInteger(num1, num2)
 
             Catch ex As Exception
-                MsgBox(JsonConvert.SerializeObject(ex))
+                MsgBox("Ha ocurrido un error inesperado, vuelva a intentarlo...", vbYes, "Ups! algo ha salido mal :(")
+
+                'En esta función no pudimos encontrar el error que nos arrojaba cuando intentábamos dividir y el resultado era una cifra no exacta(Con Decimales)
+                'Por lo que decidimos hacer ese proceso cuando esto sucedía aquí en Visual Basic
+                txtResultado.Text = num1 / num2
+
             End Try
         End If
         'Dim JsonData As String = JsonConvert.SerializeObject(Servicios.DivideInteger(num1, num2))
